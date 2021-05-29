@@ -1,0 +1,7 @@
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\bin\Debug\lab01_Net.exe.config
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\bin\Debug\lab01_Net.exe
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\bin\Debug\lab01_Net.pdb
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\obj\Debug\lab01_Net.csproj.AssemblyReference.cache
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\obj\Debug\lab01_Net.csproj.CoreCompileInputs.cache
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\obj\Debug\lab01_Net.exe
+C:\Users\skhis\source\repos\lab01_Net\lab01_Net\obj\Debug\lab01_Net.pdb
