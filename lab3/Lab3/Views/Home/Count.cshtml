@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Count";
+}
+<form asp-action="Razor" method="post">
+    <input type="submit" value="Play Again" />
+</form>
+@{
+    for (int i = @Model.Bottle; i >= 1; i--)
+    {
+        if (i == 1)
+        {
+    <br><br><a>@i green bottles hanging on the wall,</a><br>
+            <a>@i green bottles hanging on the wall,</a><br>
+            <a>And if one green bottle should accidentally fall,</a><br>
+            <a>There'll be no green bottles hanging on the wall.</a><br><br>
+            <a>There is no green bottle standing on the wall.</a><br><br>
+        }
+        else
+        {
+<br><br><a>@i green bottles hanging on the wall,</a><br>
+        <a>@i green bottles hanging on the wall,</a> <br>
+        <a>And if one green bottle should accidentally fall,</a> <br>
+        <a>There'll be @(i - 1) green bottles hanging on the wall.</a> <br><br>
+        }
+    } 
+}

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lab3</h1>
+        <p>My name is: Khisrow Hasmimi</p>
+       
+            
+                @Html.ActionLink("Home", "Index", "Home") <br>
+                @Html.ActionLink("Show the song!", "Razor", "Home") <br>
+                @Html.ActionLink("Persons", "CreatePerson", "Home") <br>
+                @Html.ActionLink("Error", "Error", "Home") <br>
+          
+    </header>
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        A layout is a framework that defines a websites structure.<br>
+        CSS is in directory wwwroot because files which are sent to the users browser are stored in this folder(Static files).<br>
+        Layout is in directory views because it is used to view generic layout of the application.  
+    </footer>
+
+</body>
+</html>
